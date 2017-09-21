@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07E45F011F747252005DC733 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E45F001F747252005DC733 /* main.cpp */; };
+		07E45F091F747270005DC733 /* ComplexNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E45F071F747270005DC733 /* ComplexNumber.cpp */; };
+		07E45F0C1F7472C8005DC733 /* ComplexNumber_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E45F0B1F7472C8005DC733 /* ComplexNumber_C.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		07E45EFD1F747252005DC733 /* Complex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Complex; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E45F001F747252005DC733 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07E45F071F747270005DC733 /* ComplexNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexNumber.cpp; sourceTree = "<group>"; };
+		07E45F081F747270005DC733 /* ComplexNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber.hpp; sourceTree = "<group>"; };
+		07E45F0A1F7472C8005DC733 /* ComplexNumber_C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber_C.hpp; sourceTree = "<group>"; };
+		07E45F0B1F7472C8005DC733 /* ComplexNumber_C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexNumber_C.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				07E45F001F747252005DC733 /* main.cpp */,
+				07E45F0A1F7472C8005DC733 /* ComplexNumber_C.hpp */,
+				07E45F0B1F7472C8005DC733 /* ComplexNumber_C.cpp */,
+				07E45F071F747270005DC733 /* ComplexNumber.cpp */,
+				07E45F081F747270005DC733 /* ComplexNumber.hpp */,
 			);
 			path = Complex;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E45F011F747252005DC733 /* main.cpp in Sources */,
+				07E45F0C1F7472C8005DC733 /* ComplexNumber_C.cpp in Sources */,
+				07E45F091F747270005DC733 /* ComplexNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
