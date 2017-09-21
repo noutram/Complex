@@ -19,7 +19,7 @@ ComplexNumber_C complexAdd(const ComplexNumber_C a, const ComplexNumber_C b) {
     return result;
 }
 
-void complexAddInplace(ComplexNumber_C* a, const ComplexNumber_C b) {
+void complexAddInPlace(ComplexNumber_C* a, const ComplexNumber_C b) {
     a->real += b.real;
     a->imag += b.imag;
 }

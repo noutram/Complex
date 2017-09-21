@@ -16,7 +16,7 @@ typedef struct {
 } ComplexNumber_C;
 
 ComplexNumber_C complexAdd(const ComplexNumber_C a, const ComplexNumber_C b);
-void complexAddInplace(ComplexNumber_C* a, const ComplexNumber_C b);
+void complexAddInPlace(ComplexNumber_C* a, const ComplexNumber_C b);
 void displayComplex(const ComplexNumber_C c);
 
 #endif /* ComplexNumber_C_h */

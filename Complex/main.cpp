@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     ComplexNumber_C y = complexAdd(p,q);
     displayComplex(y);
  
-    complexAddInplace(&y, p);
+    complexAddInPlace(&y, p);
     displayComplex(y);
 
     return 0;
