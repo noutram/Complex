@@ -8,9 +8,11 @@
 
 #include <iostream>
 #include "ComplexNumber_C.hpp"
+#include "ComplexNumber.hpp"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    // C API
     ComplexNumber_C p = { .real = 2.0, .imag = 3.0 };
     ComplexNumber_C q = { .real = 1.0, .imag = 7.0 };
     
@@ -20,5 +22,11 @@ int main(int argc, const char * argv[]) {
     complexAddInPlace(&y, p);
     displayComplex(y);
 
+    // C++ API
+    ComplexNumber aa(2.0, 3.0);
+    ComplexNumber bb(1.0, 4.0);
+    ComplexNumber yy = aa + bb;
+    
+    cout << yy << endl;
     return 0;
 }

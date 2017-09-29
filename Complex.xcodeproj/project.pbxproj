@@ -31,6 +31,7 @@
 		07E45F081F747270005DC733 /* ComplexNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber.hpp; sourceTree = "<group>"; };
 		07E45F0A1F7472C8005DC733 /* ComplexNumber_C.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ComplexNumber_C.hpp; sourceTree = "<group>"; };
 		07E45F0B1F7472C8005DC733 /* ComplexNumber_C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexNumber_C.cpp; sourceTree = "<group>"; };
+		07E45F111F74F1CF005DC733 /* Imag.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Imag.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				07E45F0B1F7472C8005DC733 /* ComplexNumber_C.cpp */,
 				07E45F071F747270005DC733 /* ComplexNumber.cpp */,
 				07E45F081F747270005DC733 /* ComplexNumber.hpp */,
+				07E45F111F74F1CF005DC733 /* Imag.hpp */,
 			);
 			path = Complex;
 			sourceTree = "<group>";

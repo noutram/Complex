@@ -7,3 +7,17 @@
 //
 
 #include "ComplexNumber.hpp"
+
+std::ostream& operator << (std::ostream& os, const ComplexNumber& c)
+{
+    os << c.real << " + " << c.imag << "j";
+    return os; //allows chaining
+}
+
+// This would not allow chaining
+//void operator << (ostream& os, const ComplexNumber& c)
+//{
+//    os << c.real << " + " << c.imag << "j";
+//}
+
+
